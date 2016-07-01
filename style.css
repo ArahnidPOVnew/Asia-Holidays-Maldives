@@ -3,5 +3,17 @@
 	padding: 0;
 }
 body{
-	background-image: url(blue1.jpg);
+	background-image: url(fon.jpg);
+}
+#conteiner{
+	width: 1018px;
+	margin:0 auto;
+	height:991;
+	border: 1px solid #C7CACF;
+	box-shadow: 0 5px 5px #0a5971;
+	background-color: white;
+}
+#head1{
+	width: 1018px;
+	height:177px;
 }
