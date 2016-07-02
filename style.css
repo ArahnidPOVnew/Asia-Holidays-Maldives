@@ -15,5 +15,75 @@ body{
 }
 #head1{
 	width: 1018px;
-	height:177px;
+	height:172px;
+	
+
 }
+.logo1{
+	width: 265px;
+	height: 153px;
+	margin-left: 30px;
+	margin-top: 15px;
+	position: relative;
+	float: left;
+}
+.logo2{
+	display: block;
+	position: absolute;
+	top:85;
+	left: 30px;
+	color: #128aa7;
+	font-family: Tahoma;
+   font-size: 12px;
+   font-weight: 400;
+
+}
+#info{
+	width: 126px;
+	height: 66px;
+	float: right;
+	display: block;
+	margin-top: 10px;
+	margin-right: 30px;
+	color: #128aa7;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+nav{
+	position: absolute;
+	display: inline-block;
+	width: 360px;
+	top: 95px;
+	right: 120px;
+	text-align: center;
+}
+.string a{
+width: 23px;
+height: 10px;
+color: #128aa7;
+font-family: Tahoma;
+font-size: 8px;
+font-weight: 400;
+text-decoration: underline;
+
+
+
+}
+.wrap{
+	position: absolute;
+	width: 345px;
+	margin: 0 auto;
+	height: 60px;
+	padding: 12px;
+}
+.flag {
+	display: inline-block;
+	float: left;
+	text-align: center;
+	}
+	.box1{
+		text-align: center;
+	}
+
