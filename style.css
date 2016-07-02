@@ -8,7 +8,8 @@ body{
 #conteiner{
 	width: 1018px;
 	margin:0 auto;
-	height:991;
+	height:890;
+	margin-bottom: 37px;
 	border: 1px solid #C7CACF;
 	box-shadow: 0 5px 5px #0a5971;
 	background-color: white;
@@ -94,25 +95,24 @@ text-decoration: underline;
 		margin-left: -1px;
 		margin-top:5px;
 	}
+
 	.navbar{
-		float: right;
-		width: 1018px;
-		height: 30px;
-			}
-.navbar{
-	list-style: none;
+		float: left;
+	width: 1019px;
+	height: 30px;
 	background-color: #333333;
 	border-bottom: #000000;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .navbar  li{
-	display: inline; 
+
+display: inline; 
 	margin-right: 15px;
-	margin-left: 53px;
+	margin-left: 45px;
 	padding-top: 10px;
 	text-align: center;
 	}
-.navbar a{
+.navbar a{	
 width: 51px;
 height: 10px;
 color: white;
@@ -127,3 +127,11 @@ ul{
 i{
 	color: white;
 }
+.navbar ul ul  { 
+  	display: none;
+  }
+  .navbar ul li:hover>ul{
+  	display: block;
+  }
+ 
+  
