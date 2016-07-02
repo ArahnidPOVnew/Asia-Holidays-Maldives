@@ -49,6 +49,7 @@ body{
     font-family: Tahoma;
     font-size: 12px;
     font-weight: 400;
+    line-height: 1.5;
 
 }
 nav{
@@ -86,4 +87,43 @@ text-decoration: underline;
 	.box1{
 		text-align: center;
 	}
-
+	#fon1{
+		width: 1020px;
+		height: 240px;
+		border: 1.5px solid #138aa7;
+		margin-left: -1px;
+		margin-top:5px;
+	}
+	.navbar{
+		float: right;
+		width: 1018px;
+		height: 30px;
+			}
+.navbar{
+	list-style: none;
+	background-color: #333333;
+	border-bottom: #000000;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.navbar  li{
+	display: inline; 
+	margin-right: 15px;
+	margin-left: 53px;
+	padding-top: 10px;
+	text-align: center;
+	}
+.navbar a{
+width: 51px;
+height: 10px;
+color: white;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 400;
+ text-decoration:none;
+}
+ul{
+	padding-top: 6px;
+}
+i{
+	color: white;
+}
