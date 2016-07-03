@@ -8,8 +8,8 @@ body{
 #conteiner{
 	width: 1018px;
 	margin:0 auto;
-	height:890;
-	margin-bottom: 37px;
+	height:880;
+	margin-bottom: 30px;
 	border: 1px solid #C7CACF;
 	box-shadow: 0 5px 5px #0a5971;
 	background-color: white;
@@ -163,5 +163,60 @@ font-family: Tahoma;
 font-size: 13px;
 font-weight: 400;
 line-height: 24px;
+}
+#content_father{
+	font-size: 0px;
+	vertical-align: top;
+	
+}
+.content1{
+vertical-align: top;
+display: inline-block;
+width: 20%;
+height: 430px;
+background-color: #edeef0;
+color: #424c43;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+margin-top: 1px;
+overflow: hidden;
+
+}
+.content2{
+display: inline-block;
+width: 60%;
+vertical-align: top;
+
+}
+.content3{
+vertical-align: top;
+display: inline-block;
+width: 20%;
+height: 430px;
+background-color: #edeef0;
+color: #424c43;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+margin-top: 1px;
+overflow: hidden;
+
+}
+
+#footer{
+width: 250px;
+height: 30px;
+position: absolute;
+left: 500px;
+opacity: 0.8;
+color: white;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 400;
 }
 
