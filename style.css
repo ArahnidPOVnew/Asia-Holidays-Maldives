@@ -6,6 +6,7 @@ body{
 	background-image: url(fon.jpg);
 }
 #conteiner{
+	position: relative;
 	width: 1018px;
 	margin:0 auto;
 	height:880;
@@ -17,7 +18,7 @@ body{
 #head1{
 	width: 1018px;
 	height:172px;
-	
+position:relative;
 
 }
 .logo1{
@@ -76,9 +77,9 @@ text-decoration: underline;
 .wrap{
 	position: absolute;
 	width: 345px;
-	margin: 0 auto;
 	height: 60px;
 	padding: 12px;
+	left:178px;
 }
 .flag {
 	display: inline-block;
@@ -96,6 +97,7 @@ text-decoration: underline;
 		margin-top:5px;
 	}
 	.navbar{
+	position:relative;
 	background-color: #333333;
 	float: left;
 	width: 1019px;
@@ -133,7 +135,9 @@ padding-top:0px;
 
 #nav1{
 	position: absolute;
-	left: 160px;
+	width: 1019px;
+	height: 30px;
+	text-align: center;
 }
 
 i{
@@ -163,6 +167,8 @@ font-family: Tahoma;
 font-size: 13px;
 font-weight: 400;
 line-height: 24px;
+height: 37px;
+width: 120px;
 }
 #content_father{
 	font-size: 0px;
@@ -209,10 +215,11 @@ overflow: hidden;
 }
 
 #footer{
+position: absolute;
 width: 250px;
 height: 30px;
-position: absolute;
-left: 500px;
+left:375px;
+padding-top: 18px;
 opacity: 0.8;
 color: white;
 font-family: Tahoma;
