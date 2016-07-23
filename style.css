@@ -101,7 +101,7 @@ text-decoration: underline;
 	background-color: #333333;
 	float: left;
 	width: 1019px;
-	height: 30px;
+	height: 27px;
 	border-bottom: #000000;
 	box-shadow: 0 0 5px rgba(0,0,0,1.5);
 	}
@@ -136,9 +136,11 @@ padding-top:0px;
 #nav1{
 	position: absolute;
 	width: 1019px;
-	height: 30px;
+	height: 26px;
 	text-align: center;
+	border-bottom: 3px solid #000000;
 }
+
 
 i{
 	float: left;
@@ -169,6 +171,9 @@ font-weight: 400;
 line-height: 24px;
 height: 37px;
 width: 120px;
+}
+.bor1{
+	border-top: 1px solid black;
 }
 #content_father{
 	font-size: 0px;
